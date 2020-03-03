@@ -27,7 +27,7 @@ class PlayersController < ApplicationController
   # PATCH/PUT /players/1
   def update
     if @player.update(player_params)
-      render json: PlayerSerializer.new(@player).to_serialized_json
+      render json: @player
     else
       render json: @player.errors, status: :unprocessable_entity
     end
