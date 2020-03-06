@@ -5,5 +5,3 @@
 #
 #   movies = Movie.create([ name: 'Star Wars' ,  name: 'Lord of the Rings' ])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-Player.create!(name: "example", kills: 0, alive: 1)
